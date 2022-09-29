@@ -1,0 +1,80 @@
+body, html {
+    height: 100vh;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    height: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+article.game_info {
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+article.game_info section.player_rezult, section.computer_rezult,
+            section.computer_selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+    border: solid black 1px;
+    height: 25vh;
+    width: 10vw;
+}
+article.game_menu {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blueviolet;
+}
+article.game_menu figure.div_key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: solid black 1px;
+    height: 25vh;
+    width: 10vw;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+article.game_rezult {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+article.game_rezult section.info_rezult {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article.game_rezult section.info_rezult_alert {
+    font-size: calc((5vh + 5vw) / 2);
+    transition-duration: 1s;
+}
